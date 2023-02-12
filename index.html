@@ -147,7 +147,7 @@
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
-                    <div class="card border border-0 shadow-lg h-100">
+                    <div class="card border border-0 shadow-lg h-100" id="remove">
                         <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Supply 350</h5>
@@ -156,7 +156,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn panda-btn-buy-now">Buy Now</div>
+                            <div onclick="consol()" class="btn panda-btn-buy-now">Buy Now</div>
                         </div>
                     </div>
                 </div>
@@ -251,7 +251,7 @@
                     <div class="mb-1">
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
-                    <button type="submit" class="btn panda-btn-buy-now">Submit</button>
+                    <button type="submit" id="form-btn" disabled class="btn panda-btn-buy-now">Submit</button>
                 </form>
             </div>
         </section>
